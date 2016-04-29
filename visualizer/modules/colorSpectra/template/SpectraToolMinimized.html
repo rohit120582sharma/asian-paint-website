@@ -1,0 +1,17 @@
+
+<div id="draggableMinimized" class="ui-widget-content">
+   <div id="openButton" onclick="SpectraTool.openMaximized(event)"></div>
+	<div id="colorSpectraContainerMinimized">
+	<div id="colorSpectraMinimizedTabs" data-bind="foreach: colorSpectraTabs" title="">
+			<div class="colorSpectraContainerMinimized tabText" data-bind="text: $data, 
+                   css: { colorSpectraTabselected: $data == $root.chosenTabId() },
+                   click: $root.goToTab">
+            </div>
+     </div> 
+		<!-- <div id="tabColorSpectraMinimized" class="colorSpectraContainerMinimized"><span class="tabTextMinimized">color spectra</span></div>
+		<div id="tabEffectsMinimized" class="colorSpectraContainerMinimized"><span class="tabTextMinimized">effects</span></div>
+		<div id="tabKidsWorldMinimized" class="colorSpectraContainerMinimized"><span class="tabTextMinimized">Kid's World</span></div>
+		<div id="tabWallFashionMinimized" class="colorSpectraContainerMinimized"><span class="tabTextMinimized">wall fashion</span></div>-->
+	</div>
+</div>
+

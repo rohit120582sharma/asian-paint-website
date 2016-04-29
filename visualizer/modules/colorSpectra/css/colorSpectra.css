@@ -1,0 +1,298 @@
+@font-face {
+	font-family: 'Conv_accordaltbold-webfont';
+	src: url('../assets/fonts/accordaltbold-webfont.eot');
+	src: url('../assets/fonts/accordaltbold-webfont.woff') format('woff'), url('../assets/fonts/accordaltbold-webfont.ttf') format('truetype'), url('../assets/fonts/accordaltbold-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_accordaltregular-webfont';
+	src: url('../assets/fonts/accordaltregular-webfont.eot');
+	src: url('../assets/fonts/accordaltregular-webfont.woff') format('woff'), url('../assets/fonts/accordaltregular-webfont.ttf') format('truetype'), url('../assets/fonts/accordaltregular-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+/* Main Module CSS file */
+#colorSelectionHeader{
+	border-bottom: 1px solid white;
+	box-shadow: 1px 1px 2px grey;
+	display: none;
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	padding-left: 2%;
+	
+	}
+#draggableMinimized {
+	width: 100px;
+	height: 109px;
+	z-index:100;
+	position:absolute;
+	/*left: 867px;
+	top: 120px;*/
+	right:0;
+	background: #512b8b;
+	border: none;
+	padding:0 5px;
+}
+#colorSpectraContainerMinimized{
+	/*margin: 4px;
+	background-color: white;
+	border-radius: 3px;
+	padding:1px;*/	
+}
+.colorSpectraContainerMinimized{
+	cursor: pointer;
+	line-height: 26px;
+	width: 90%;
+	margin:0 auto;
+	cursor: pointer;
+	/*border: 1px solid white;
+	background: #DDDADA;*/
+	}
+	
+#openButton{
+	background: url('../../../assets/images/colorSpectra/arrow_to_open.png');
+	height: 19px;
+	width: 19px;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+	margin-left: 74px;
+	margin-bottom: 4px;
+	cursor:pointer;
+}
+#colorSpectraSearch{
+	width: 100px;
+	height: 16px;
+	margin-top: 8px;
+	float: right;
+	margin-right: 5px;
+	font-size: 9px;
+	border: 1px solid #BEBEB8;
+}
+.colorFamilyDivs{
+	width: 68px;
+	line-height: 22px;
+	display: inline-block;
+	/*border: 1.5px solid #FFF;*/
+	margin-right: 5px;
+	float: left;
+	margin-bottom: 5px;
+	cursor:pointer;
+	padding-left:4px;
+	background-color:#F7D5D7;
+	text-transform:lowercase;
+}
+.colorSpectraSmallTextStyle{
+	font-size: 11px;
+	font-weight: normal;
+	font-family: 'Conv_accordaltregular-webfont';
+	/*font-family: arial;
+	overflow: hidden;*/
+	color: #353535;
+	}
+#draggableMaximized{
+	width: 332px;
+	height: 450px;
+	z-index:100;
+	position:absolute;
+	right: 0;
+	top: 0;
+	background: rgba(81,43,139,.8);
+	border: none;
+	padding-bottom:10px;
+}
+#colorSpectraContainerMaximized{
+	background-color: #FFFFFF	;
+	border-radius: 2px;
+	height:380px;
+	margin: 6px;
+}
+.colorSpectraContainerMaximized{
+	/*background:url('../../../assets/images/colorSpectra/color-spectra_tab_bg.png');*/
+	background-size: 78px;
+	line-height: 29px;
+	width: 32.6%;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+	margin-right: 1px;
+	border-left: 2px solid #58357a;
+	/*border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	box-shadow: 1px 1px 2px grey;
+	
+	border-top:1px solid #512b8b;*/
+	}
+	.colorSpectraContainerMaximized:first-child{
+	border-left:none;
+	}
+	.tabText{
+	text-align: center;
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	font-size: 14px;
+	/*font-weight: bold;*/
+	color:#FFFFFF;
+	border-top:1px solid #7455a2;
+	}
+	.tabText:first-child{
+	border-top:none;
+	}
+#closeButton{
+	background: url("../../../assets/images/colorSpectra/arrow_to_close.png");
+	height: 19px;
+	width: 19px;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+	margin-left: 307px;
+	margin-bottom:4px;
+	cursor:pointer;	
+}
+#applyColorButton{
+	/*background: url('../../../assets/images/colorSpectra/apply_color.png');
+	height:31px;
+	width: 95px;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	margin-left: 158px;
+	cursor:pointer;*/
+}
+
+#cancelColorButton{
+	/*background: url('../../../assets/images/colorSpectra/cancel_color-spectra.png');
+	height: 31px;
+	width: 68px;
+	position: absolute;
+	background-repeat: no-repeat;
+	margin-top: 5px;
+	margin-left: 257px;
+	cursor:pointer;*/
+}
+.colorSpectaApplyCancelButton {
+    /*background: rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #f8f8f8, #cfcfcf) repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 3px 3px 3px #262626;*/
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    /*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 27px;
+    margin-right: 7px;
+    margin-top: 5px;
+    padding: 0 13px;
+	background:none;
+	border:2px solid #ffffff;
+	color:#ffffff;
+}
+.colorSpectaApplyCancelButton.disabledStyle {
+	border:2px solid #ffffff;
+	color:#ffffff;
+	opacity:0.5;
+}
+#recommendationButton{
+ 	font-family: sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	float: right;
+	padding: 1px 8px;
+	background: rgb(198, 203, 207);
+	border-radius: 11px;
+	box-shadow: 1px 1px 1px black;
+	margin-top: 4px;
+	margin-right: 6px;
+}
+#variationsText{
+	margin-bottom: 10px;
+	margin-top:10px;	
+	}	
+#variationsContent{
+	overflow-y: scroll;
+	height: 142px;
+	}
+.variationsDivs{
+	/*background: white none repeat scroll 0 0;*/
+    border: 1px solid #FFFFFF;
+    /*box-shadow: 1px 1px 3px grey;*/
+    display: inline-block;
+    float: left;
+    height: 42px;
+    margin-bottom: 10px;
+    margin-right: 4px;
+    width: 31%;
+	}
+.variationsColorStyle{
+	width: 95%;
+	height: 16px;
+	margin: 2px auto;
+	margin-bottom: 3px
+	}
+.variationsDivTextStyle{
+	margin-left: 3px;
+	width: 95%;
+	font-size: 9px;
+	font-family:arial;
+	//height: 10px;
+}			
+#colorFamily,#variations{
+	margin-left: 11px;	
+	}		
+#colorFamilyText{
+	margin-bottom: 10px;
+	display:inline-block;	
+	}	
+#colorFamilyContent{
+	height: 112px;
+	//overflow-y:scroll;
+	}
+.selectedStyle{
+	border-color:red;
+	}
+#colorSpectraMinimizedTabs > .colorSpectraTabselected{	
+	background:none;
+}
+	
+	
+.colorSpectraTabselected{
+	/*border-bottom-color:red;
+	border-bottom:1px solid #FFFFFF;*/
+	background:url(../../../assets/images/color_spectra_bg_active.png) center bottom no-repeat #fcaf17;
+	background-position:left;
+}
+.spectraTabs_bg { height: 30px; background-color:#bababa; }
+.spectraBaseFont{
+	font-size: 14px;
+	font-family: 'Conv_accordaltregular-webfont';
+	/*font-family: arial;*/
+	font-weight: bold;
+	color:#212121;
+	}
+#refreshContainerButton{
+	line-height: 27px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px 13px;
+	background: -webkit-linear-gradient(top, #f8f8f8, #C2BFBF);
+	background: -moz-linear-gradient(top, #f8f8f8, #cfcfcf);
+	background: -ms-linear-gradient(top, #f8f8f8, #cfcfcf);
+	margin-left: 39%;
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-top: 22px;
+}
+#refreshContainerText{
+	margin-top: 12%;
+	text-align: center;
+}
+}	

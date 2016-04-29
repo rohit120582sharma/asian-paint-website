@@ -1,0 +1,34 @@
+<div id="toolbarTemplateMainModule">
+	<div id="mainTabs">	
+    	<div class="toolbar_header">Tools</div>	
+		<div id="layer" class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/layer_tool.jpg" /></div>
+		<div id="chroma" class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/magicfill_tool.jpg" /></div>
+		<div id="masking"  class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/masking_tool.jpg" /></div>
+		<div id="autoMask"  class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/automask_tool.jpg" /></div>
+		<div id="hideMask"  class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/hidemask_tool.jpg" /></div>
+		<div id="brush" class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/brush_tool.jpg" /></div>
+		<div id="eraser"  class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/eraser_tool.jpg" /></div>
+		<div id="perspective"  class="mainToolbar dividerStyle topToolbarText" onclick="" title="">PERSPECTIVE</div>
+		<div id="shadow" class="mainToolbar dividerStyle topToolbarText" onclick="" title="">SHADOW</div>
+		<div id="reset" class="mainToolbar dividerStyle topToolbarText" onclick="" title=""><img src="assets/images/reset_tool.jpg" /></div>
+		<div id="help" class="mainToolbar topToolbarText" ><img src="assets/images/help_tool.jpg" /></div>
+		<div id="advancedExpressTab" class="mainToolbar topToolbarText" onclick="" title="">SWITCH TO ADVANCED</div>
+		<div style="clear:both"></div>
+			
+	</div>
+	<div id="popup" class="popup">
+	<p id = "popuptext" class="popupText"></p>
+		<div id = "popupbuttons" class="popupButtons">
+			<img alt="" src="" id = "positiveResponse" onclick = "MainModule.popupResponse('positiveResponse');" style="cursor:pointer"> 
+			<img alt="" src="" id = "negativeResponse" onclick = "MainModule.popupResponse('negativeResponse');" style="cursor:pointer">
+		</div>
+	
+	</div>
+	<div id="imageChangePopup" class="popup">
+	<p id = "imageChangePopupText" class="popupText" style="margin-top:15px"></p>
+		<div id = "imageChangePopupButtons" class="popupButtons" style="margin-top:0px">
+			<div id="imageChangePositiveResponse"><input type="file" id="fileUploadFromImage" change="MainModule.ImageSelected" /></div> 
+			<div id="imageChangeNegativeResponse" onclick="MainModule.hideImageChangePopup();"></div>	
+	</div>
+	</div> 
+</div>	

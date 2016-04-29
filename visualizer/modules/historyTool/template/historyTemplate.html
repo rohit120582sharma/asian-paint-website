@@ -1,0 +1,51 @@
+<div id="historyToolTemplate">
+    <div id="effectsHistory">
+    <div id="effectsHistoryText">History</div>
+    <div id="effectsHistoryContainer">
+		<div id="effectsHistoryCombinations" data-bind="foreach: historyCombinations">
+			 <div class="historyDetailsEffectsContainer" data-bind="foreach:effects">
+			 <div class="historyDetailsEffects" data-bind="style:  {width:$parent.colorWidth }">
+			 	<div class="historyEffectsColorItem" data-bind="style: { backgroundColor:'#'+Hex}"></div>
+			 	<div class="historyCodeText"data-bind="text:Shade_Code"></div>
+			 </div>	
+			</div>
+		</div>
+	</div>	
+	<div class="arrow-down"></div>
+	</div>
+	<div id="spectraHistory">
+    <div id="spectraHistoryText">History</div>
+    <div id="spectraHistoryContainer">
+		<div id="spectraHistoryColors" data-bind="foreach: historyColors">
+		    <div class="SpectraHistoryColorContainer">
+			 	<div class="spectraHistoryColors" data-bind="style: { backgroundColor:'#'+Hex}"></div>	
+			 	<div class="historyCodeText"data-bind="text:Shade_code"></div>
+		    </div>
+		</div>
+	</div>
+	<div class="arrow-down"></div>	
+	</div>
+	<div id="currentTool"><span>Current Tools</span></div>
+	<div id="historyToolContainer">
+		<div id="historyToolNameContainer" class="historyToolItems">
+			<div><img width="34px" height="29px" style="margin-top: 13px;margin-left: 22px;" data-bind="attr:{src: currentToolImage}"></img></div>
+			<div id="historyToolName" class="historyToolText" data-bind="text:currentTool"></div>
+		</div>
+		<div id="historyTexture" class="historyToolItems">
+			<div style="width:40px;height:34px;margin-top: 13px;margin-left: 21px;background-size: cover" data-bind="style: { backgroundImage: 'url(\'' +currentTextureImage() + '\')'} "></div>
+			<div id="historyTextureName" class="historyToolText" data-bind="text:currentTextureName"></div>
+		</div>
+		<div id="historyEffectsCombination" class="historyToolItems" onclick="HistoryTool.showHideEffectsHistoy()">
+			<div id="historyEffectsColors" data-bind="foreach: currentEffects().effects">
+				 <div style="float:left;height: 51px" data-bind="style: { backgroundColor:'#'+Hex, width:$root.currentEffects().colorWidth}"></div>
+			</div>
+			<div id="historyEffectsText" class="historyToolText">Effects</div>
+		</div>
+		<div id="historyColorSpectra" class="historyToolItems" onclick="HistoryTool.showHideSpectraHistoy()">
+			<div id="historyColorSpectraColor" data-bind="style:{background:colorSpectra}"></div>
+			<div id="historyColorSpectraText" class="historyToolText">Colour Spectra</div>
+		</div>
+		<div id="historyToolCloseBtn" class="historyToolItems" style="cursor:pointer;"onclick="HistoryTool.closeHistoryTool()"></div>
+	</div>
+	
+</div>	

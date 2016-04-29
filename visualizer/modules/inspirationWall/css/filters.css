@@ -1,0 +1,76 @@
+#filtersContainer {
+	display: none;
+	position: absolute;
+	height: 220px;
+	width: 800px;
+	margin-left: -400px;
+	margin-top: -110px;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	z-index: 200;
+	background-color: rgba(0,0,0,.8);
+}
+
+.filtersHeader {
+	color: #fff;
+	padding-top: 8px;
+	padding-left: 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background: #b91b19;
+	height: 35px;
+}
+
+#filtersContainer .filtersHolder {
+	height: 145px;
+	font-size: 14px;
+}
+
+.filterOptions {
+	width: 25%;
+	height: 130px;
+	display: inline-block;
+	padding: 10px 0px 0px 10px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	float: left;
+}
+
+.filterOptions input {
+	margin: 0px 10px 0px 0px;
+}
+
+.filterHeading {
+	margin-bottom: 5px;
+}
+
+.filtersHolder .filterType {
+	overflow: hidden;
+	height: 95px;
+	position: relative;
+	clear: both;	
+}
+
+/* .filtersHolder .filterType > div{ */
+/* 	height: 95px; */
+/* 	overflow: hidden; */
+	
+/* } */
+
+.filterBottomBar {
+	float: right;
+	padding-right: 15px;
+}
+
+.filterBottomBar button {
+	border-radius: 5px;
+	height: 28px;
+	background: -webkit-linear-gradient(top, #f8f8f8, #C2BFBF);
+	background: -moz-linear-gradient(top, #f8f8f8, #cfcfcf);
+	background: -ms-linear-gradient(top, #f8f8f8, #cfcfcf);
+}

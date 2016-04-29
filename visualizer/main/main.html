@@ -1,0 +1,70 @@
+<div id="toolbar" ></div>
+<canvas id="glcanvas" class="glcanvas_bg" onclick=""></canvas>
+<div id="orientationTool" style="position:absolute; top:0;"></div>
+<div id="colorSpectraMinimized" style="position:relative; top:130;"></div>
+<div id="colorSpectraMaximized" style="position:relative; top:130;"></div>
+
+
+<div id="bottomToolbarMainModuleTools" style="position:absolute;">
+ <div id="toolsdiv" style="position:absolute;">
+		<div id="layertool"></div>
+		<div id="chromatool" class="controllers"></div>
+		<div id="maskingtool">
+			<table>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/mask-2.png" onclick="MainModuleTool.subMasking('straightline');"></td></tr>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/mask-1.png" onclick="MainModuleTool.subMasking('freeform');"></td></tr>
+			</table>
+		</div>
+		<div id="brushtool">
+			<table>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_large.png" onclick="MainModuleTool.subBrush('squareLargeBrush');"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_large.png" onclick="MainModuleTool.subBrush('circleLargeBrush');"></td>
+				</tr>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_med.png" onclick="MainModuleTool.subBrush('squareMediumBrush');"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_med.png" onclick="MainModuleTool.subBrush('circleMediumBrush');"></td>
+				</tr>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_small.png" onclick="MainModuleTool.subBrush('squareSmallBrush');"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_small.png" onclick="MainModuleTool.subBrush('circleSmallBrush');"></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="erasertool">
+			<table>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_large.png" onclick="MainModuleTool.subEraser(eraserType.SQUARE_LARGE);"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_large.png" onclick="MainModuleTool.subEraser(eraserType.CIRCLE_LARGE);"></td>
+				</tr>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_med.png" onclick="MainModuleTool.subEraser(eraserType.SQUARE_MEDIUM);"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_med.png" onclick="MainModuleTool.subEraser(eraserType.CIRCLE_MEDIUM);"></td>
+				</tr>
+				<tr><td><img alt="" src="assets/images/mainModuleToolbar/sqr_eraser_small.png" onclick="MainModuleTool.subEraser(eraserType.SQUARE_SMALL);"></td>
+					<td><img alt="" src="assets/images/mainModuleToolbar/circle_eraser_small.png" onclick="MainModuleTool.subEraser(eraserType.CIRCLE_SMALL);"></td>
+				</tr>
+			</table>
+		</div>
+		<div id="shadowtool" class="controllers"></div>
+    </div>
+<div id="shareModule" style="position:absolute;"></div>
+<div id="historyTool" style="position:absolute;"></div>
+	<div id="saveTooltip" style="position:absolute;">
+		<div id="saveContainer">
+			 <div id="saveText">Save</div>
+			 <div class="saveListItem" onclick="MainModule.saveAsImage()">Save as Image</div>
+			 <!-- <div class="saveListItem"><input id="saveAsPdfCheckbox"type="checkbox" style="cursor:default">Save the Before/After PDF report</div> -->
+			 <div class="saveListItem" onClick="initPDF()">Save as Before/After report ( PDF )</div>
+		</div>
+		<div class="arrow-down"></div>	
+	</div>
+</div>
+<div id=footer>
+	<div id="footerLogo" style="display:inline-block;float:left">
+		<div id="home" onclick="Main.gotoHome()"></div>
+	</div>
+	<div id="helpTips"></div>
+	<div id="bottomToolbar">
+		<div id="skipButton"  onclick="Main.skipImageEditing()"></div>
+	</div>
+</div>
+<div id="footerKitClosed">
+  <div id="kitIconClosed" onclick="Main.handleCloseKit()"></div>
+</div>

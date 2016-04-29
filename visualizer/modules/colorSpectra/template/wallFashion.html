@@ -1,0 +1,13 @@
+<div class="wallFashionMain" id="wallFashionContainer">
+
+	<div class="spectraBaseFont heading">Select Wall Fashion</div>
+	<div class="WallFashionInner">
+	
+		<ul class="wallFashionCategoryBox" data-bind="foreach : wallFashionsCategory" > 
+			<li class="spectraBaseFont wallFashionCategory" data-bind="text: category,click: $root.selectWallFashionCategory"></li>
+		</ul>
+		<div class="wallFashionBox" data-bind="foreach : wallFashions"> 
+			<img alt="" data-bind="attr: { src: WallFashion_Thumbnail }, click: $root.selectWallFashion" class="wallFasion">
+		</div>
+	</div>
+</div>

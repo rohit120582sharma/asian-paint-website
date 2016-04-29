@@ -1,0 +1,349 @@
+/* Main Module CSS file */
+.mainToolbar {
+	line-height: 15px;
+	cursor: pointer;
+	cursor: pointer;
+	display: block;
+	margin: 0px 7px;
+	position: relative;
+	padding-top:7px;
+	/*float: left;*/
+}
+
+.mainToolbar:hover {
+	/*background: #e2e2e2;*/
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.mainToolbar.mainTabSelected:hover {
+	background: #fff;
+}
+
+.mainToolbar.disabledStyle:hover {
+	/*background: #e2e2e2;*/
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.dividerStyle {
+	/*background-image:
+		url('../../../assets/images/mainModuleToolbar/divider_toolbar.png');
+	background-repeat: no-repeat;
+	background-position: right center;*/
+}
+
+.topToolbarText {
+	font-size: 10px;
+	color: black;
+	font-family: MyriadPro, Calibri;
+	border-top:1px solid #dcdcdc;
+	/*font-family: sans-serif;	
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;	
+	*/
+}
+.topToolbarText:first-child { border-top:none; }
+
+.mainTabSelected {
+	background-image:
+		url('../../../assets/images/mainModuleToolbar/toolbar_bg_sprite.png');
+	background-repeat: repeat-x;
+	background-position: 0px -115px;
+	color: #000;
+	text-shadow: none;
+}
+
+.higlightedTool {
+	/*background-image:
+		url('../../../assets/images/mainModuleToolbar/glow.gif');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-size: 87px 56px;
+	 color:#000; */
+	/* text-shadow:none; */
+}
+
+#advancedExpressTab {
+	background-color: #b91b19;
+	float: right;
+	width: 59px;
+	padding: 0;
+	text-align: center;
+	display:none;
+}
+
+#bottomToolbarMainModule {
+	/*float: right;*/
+	background-color:#512b8b;
+	position:absolute; right:0;
+	height:41px;
+}
+
+.bottomToolbar {
+	/*line-height: 40px;*/
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	color: #FFFFFF;
+	padding: 8px 7px 0;
+}
+
+#kitIcon {
+	background: url('../../../assets/images/mainModuleToolbar/open_kit.png'); display:none;
+	width: 54px;
+	height: 38px;
+	background-repeat: no-repeat;
+	margin-right: 45px;
+	margin-top: 3px;
+}
+
+#currentTools {
+	background:url('../../../assets/images/mainModuleToolbar/current_tool.png'); display:none;
+	background-position: 0px -75px;
+	width: 46px;
+	background-repeat: no-repeat;
+	padding-right: 0px;
+	height: 40px;
+	margin-left: 15px;
+}
+
+#help {
+	/* font-size: 14px;
+	color: #b91b18;
+	margin-left: 5px;
+	margin-right: 5px; */
+	font-size: 16px;
+	color:#f33636;
+	font-family:MyriadPro-Semibold, Calibri;
+}
+
+#toolsdiv {
+	z-index: 1;
+	margin-top: 8px;
+	left:80px;
+}
+
+#layertool {
+	width: 103px;
+	height: 612px;
+	margin-left: 10px;
+	background: rgba(0, 0, 0, 0.75);
+	display: none;
+}
+
+#maskingtool {
+	position: absolute;
+	margin-left: -14px !important;
+	display: none;
+	top:138px;
+}
+
+#brushtool {
+	position: absolute;
+	margin-left: -14px !important;
+	top:290px;
+	display: none;
+}
+
+#erasertool {
+	position: absolute;
+	margin-left: -14px !important;
+	top:340px;
+	display: none;
+}
+
+#lighttool {
+	margin-left: -14px !important;
+	display: inline-block;
+}
+
+#dayviewtool {
+	position: absolute;
+	margin-left: 636px;
+	display: none;
+}
+
+#advanceexpress {
+	background-image:
+		url("../../../assets/images/mainModuleToolbar/express-advanced.png");
+	background-position: -1px -117px;
+	width: 95px;
+	height: 51px;
+	position: relative;
+	margin-left: 872px;
+	z-index: 1;
+	visibility: hidden;
+	margin-top: 65px;
+	cursor: pointer;
+}
+
+#selectLayer {
+	background:
+		url("../../../assets/images/mainModuleToolbar/select_layer.png");
+	width: 103px;
+	height: 36px;
+}
+
+#addLayerButton {
+	background:
+		url("../../../assets/images/mainModuleToolbar/add_layer.png");
+	width: 103px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-position: 46px 23px;
+	cursor: pointer;
+}
+
+#layerToolCloseBtn {
+	background:
+		url("../../../assets/images/mainModuleToolbar/close_layer.png");
+	width: 103px;
+	height: 52px;
+	cursor: pointer;
+}
+
+#layers {
+	position: relative;
+	height: 459px;
+	overflow: hidden;
+	padding-left:4px;
+}
+
+/*.layerColor {
+	width: 72px;
+	height: 60px;
+	margin: 10px auto;
+	cursor: pointer;
+	float: left;
+}*/
+
+.layerColor {
+	background: #e68f5a none repeat scroll 0 0 !important;
+    cursor: pointer;
+    height: 30px;
+    margin: 10px auto;
+    width: 30px !important;
+}
+
+
+.layerName {
+	margin-left: 26px;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: white;
+	margin-bottom: 10px;
+}
+
+.layersSpacing {
+	margin-bottom: 28px;
+	width: 91px;
+}
+
+.layerSelected {
+	border: 2px solid #847862;
+}
+
+.popup {
+	position: absolute;
+	background-image: url("../../../assets/images/pop-up_bg.png");
+	background-repeat: no-repeat;
+	width: 345px;
+	height: 150px;
+	z-index: 200;
+	top: 250px;
+	margin-left: 313px;
+	display: none;
+}
+
+.popupText {
+	margin-top: 30px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	font-size: 16px;
+	width: 345px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+
+.popupButtons {
+	/*margin-left: 9%;
+	margin-top: 6%;*/
+}
+
+#imageChangePositiveResponse {
+	background-image: url('../../../assets/images/yes.png');
+	width: 138px;
+	height: 56px;
+	position: absolute;
+	background-repeat: no-repeat;
+}
+
+#imageChangeNegativeResponse {
+	background-image: url('../../../assets/images/no.png');
+	width: 138px;
+	height: 56px;
+	position: absolute;
+	left: 180px;
+	background-repeat: no-repeat;
+}
+
+#fileUploadFromImage {
+	width: 138px;
+	height: 56px;
+	opacity: 0;
+}
+
+.disabledStyle {
+	color: grey;
+	cursor: default !important;
+}
+.disabledStyle img {
+	opacity:0.2;
+}
+
+#saveTooltip {
+	margin-left: 653px;
+	margin-top: 492px;
+	display: none;
+}
+
+#saveContainer {
+	width: 239px;
+	height: 117px;
+	background-color: #DDDADA;
+}
+
+#saveText {
+	font-size: 14px;
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	color: rgb(66, 63, 63);
+	font-weight: bold;
+	height: 27px;
+	padding-left: 7px;
+	padding-top: 11px;
+	border-bottom: 2px solid #b91b19;
+}
+
+.saveListItem {
+	border-bottom: 1px solid #E5E4E2;
+	cursor: pointer;
+	font-size: 14px;
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	color: rgb(66, 63, 63);
+	font-weight: bold;
+	height: 27px;
+	padding-left: 7px;
+	padding-top: 11px;
+}
+
+.bottomToolbarSelected {
+	color: #b91b18;
+}

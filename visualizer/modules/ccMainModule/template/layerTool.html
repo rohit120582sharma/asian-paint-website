@@ -1,0 +1,16 @@
+<div id="selectLayer"></div>
+<div id="addLayerButton" onclick="LayerTool.addNewLayer()" ></div>
+<div id="layers" >
+	 <div data-bind="foreach:layers" style="position:absolute">
+  		<div class="layersSpacing" data-bind="click:$parent.setCurrentLayer">
+  		<div style="margin-left:10px;margin-right:10px">
+  		<div  data-bind="foreach: colors">			
+   			<div class="layerColor" data-bind="style: { background:color, width:colorWidth }"></div>
+		</div>
+		<div style="clear:both"></div>	
+		</div>
+		<div class="layerName" data-bind="html:name"></div>
+		</div>	
+ 	</div>
+</div>
+<div id="layerToolCloseBtn" onclick="MainModuleTool.closeLayerTool()"></div>

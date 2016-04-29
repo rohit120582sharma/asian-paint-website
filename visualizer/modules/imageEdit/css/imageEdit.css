@@ -1,0 +1,53 @@
+/* Image Edit CSS file */
+
+#proceedButton,#resetButton{	
+	width: 69px;
+	height: 30px;
+	display: inline-block;
+	background-repeat: no-repeat;	
+	}
+#proceedButton{
+	background: url('../../../assets/images/proceed.png');	
+	background-repeat: no-repeat;
+	}
+#resetButton{
+	background: url('../../../assets/images/reset_btn.png');
+	background-repeat: no-repeat;
+	}	
+#buttonsDiv{
+	float: right;
+	margin-top: 15px;
+}
+
+#controllersDiv{
+	margin-top: 10px;
+}
+#brightnessController{margin-left: 88px;}
+#sharpnessController{margin-left: 13px;}
+#contrastController{margin-left: 177px;}
+.controllers {
+		display:none;
+		width:176px;
+		height:22px;
+        border:none;
+        border-radius: 7px;	
+        z-index:2;	
+		position:absolute; left:-20px; top:100px;
+		/* Safari 4-5, Chrome 1-9 */
+		background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#545754), to(#a6a6a6));
+
+		/* Safari 5.1, Chrome 10+ */
+		background: -webkit-linear-gradient(top, #545754, #a6a6a6);
+
+		/* Firefox 3.6+ */
+		background: -moz-linear-gradient(top, #545754, #a6a6a6);
+
+		/* IE 10 */
+		background: -ms-linear-gradient(top, #545754, #a6a6a6);
+
+		/* Opera 11.10+ */
+		background: -o-linear-gradient(top, grey, white);
+	}
+	.controllers .ui-slider-range { background: #ffbf00;border:none;border-radius: 7px;  }
+	.controllers .ui-slider-handle {border-top:none;border-bottom:none; border-color: #4f524f; height: 30px;width: 16px;top: -5px;background: -webkit-linear-gradient(top, #949494, #d6d6d6); }
+

@@ -1,0 +1,153 @@
+#shareModule{
+	width: 250px;
+	margin-left: 699px;
+	margin-top: 460px;
+}
+
+.shareContainer {
+	background-color: #DDDADA;
+	height: 144px;
+	padding: 2px;
+}
+
+.shareHeader {
+	height: 24px;
+	border-bottom: 2px solid #b91b19;
+	padding: 8px 0px 0px 5px;
+	font-size: 15px;
+	/*font-family: arial;*/
+	font-family: 'Conv_accordaltregular-webfont';
+	font-weight: bold;
+	color: rgb(66, 63, 63);
+}
+
+.shareList {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-family: "arial",Georgia,Serif;
+	color: rgb(66, 63, 63);
+	font-weight:bold;
+	/* clear: both; */
+}
+
+.shareListItem {
+	border-bottom: 1px solid #E5E4E2;
+	cursor: pointer;
+	clear: both;
+	height: 35px;
+}
+
+.shareListItem:last-child {
+	border: none;
+}
+
+.shareListItem span {
+	display: inline-block;
+}
+
+.shareListItem .listIcon {
+	float: left;
+	margin-top: 5px;
+}
+
+.shareListItem .listText {
+	width: 80%;
+	margin-top: 8px;
+	float: right;
+	text-align: left;
+	font-size: 12px;
+	color: rgb(66, 63, 63);
+	font-weight:bold;
+}
+
+.shareListItem .facebookShare {
+	width: 28px;
+	height: 28px;
+	background: url(../../../assets/images/share.png) 0px 0px;
+	background-repeat: no-repeat;
+	margin-left:4px;
+}
+
+.shareListItem .twitterShare {
+	width: 29px;
+	height: 29px;
+	background: url(../../../assets/images/share.png) 0px -68px;
+	background-repeat: no-repeat;
+	margin-left:4px;
+}
+
+.shareListItem .gPlusShare {
+	width: 28px;
+	height: 28px;
+	background: url(../../../assets/images/share.png) 1px -33px;
+	background-repeat: no-repeat;
+	margin-left:4px;
+	padding-bottom: 2px;
+}
+
+.shareListItem .insipirationWallShare {
+	width: 22px;
+	height: 25px;
+	background: url(../../../assets/images/share.png) 1px 24px;
+	border: none;
+	
+	margin-left: 8px;
+    margin-top: -1px;
+    
+}
+
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-top: 16px solid #DDDADA;
+	margin: 0px auto;
+}
+
+#social-buttons {
+    height: 300px;
+    transition:             opacity 1000ms ease;
+        -moz-transition:    opacity 1000ms ease;
+        -ms-transition:     opacity 1000ms ease;
+        -o-transition:      opacity 1000ms ease;
+        -webkit-transition: opacity 1000ms ease;
+    width: 90px;
+}
+
+.fb-like,
+.g-plusone-frame {
+    margin: 10px 0 10px 3px;   
+}
+
+.g-plusone-frame {
+    display: inline-block;
+}
+
+.twitter-share-button {
+    margin: 10px 0;
+}
+
+.fade {
+    opacity: 0 !important;
+}
+
+#twittershare
+{
+	
+ text-decoration: none;
+ color: #000;
+ width: 100%;
+ display: inline-block;
+	
+}
+#googleshare
+{
+	
+ text-decoration: none;
+ color: #000;
+ width: 100%;
+ display: inline-block;
+	
+}

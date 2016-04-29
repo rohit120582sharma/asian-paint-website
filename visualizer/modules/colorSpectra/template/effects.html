@@ -1,0 +1,48 @@
+
+		<div id="effectsContainerMaximized" class="effectsInnerContainer">
+        	<div class="effectsContainerMaximized_heading">
+                <label class="spectraBaseFont dropdownLabel">Effects: </label> 
+                <select
+                    class=" spectraBaseFont effectsDropdown" data-bind="{options: availableTextures,event: {change : $root.selectionChanged } }">
+                </select> 
+                <div class="spectraBaseFont effectsHeading">Select Texture and Apply Colour Combination</div>
+            </div>
+			
+			<div class="effectsSubInnerContainer">
+				<div id="texture_Carousal">
+					<div class="prevTextureList prev" >&and;</div>
+					<div class="spectraBaseFont selectedTextureName">Denim Combinations</div>
+					<div class="textureContainer viewport" id="textureContainer">
+						
+						<ul class="textureContainerInner overview"    data-bind="foreach: textures">
+							<li class="textureBox" data-bind="click: $root.selectTexture" >
+								<div class="texture" data-bind="style: { backgroundImage: 'url(\'' +Texture_Image + '\')'}"></div>
+								<!--  <div class="textureName" data-bind="text: Texture_Name"></div>-->
+							</li>
+						</ul>
+						
+					</div>
+					<div class="nextTextureList next" >&or;</div>
+				</div>
+				<div class="presetsContainer">
+					<div id="presetCombinations" class="presetCombinations" data-bind="foreach: presetCombination">
+						<div class="preset" data-bind="click: $root.selectPresets, foreach: comb_layers">
+							<div class="presetColor" data-bind="css : $root.setWidth()">
+								<div  data-bind="style: {background: '#'+Hex } "></div>
+								<div class="presetColorName" style="height:16px;" data-bind="text: Shade_Code"></div>
+							</div>
+						</div>
+						<div class="CB15"></div>
+					</div>
+
+					<!-- New Preset -->
+					<div id="customPreset" class="preset" data-bind="foreach: addShadeCodes, click:$root.selectPresets" style="height:28px">
+					<div  class="presetColor new" data-bind="css : $root.setWidth(), click:$root.addCustomPresetColor">
+						<div data-bind="style: {background: '#'+Hex}" >+</div>
+						<div class="presetColorName new " data-bind="text: Shade_code"></div>
+					</div>
+                    </div>
+				</div>
+			</div>
+			<div style="clear: both"></div>
+		</div>

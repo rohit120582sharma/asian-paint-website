@@ -1,0 +1,66 @@
+#wallFashionContainer .search {
+	width: 25%;
+	float: right;
+	margin: 10px 10px 0px 0px;
+}
+
+#wallFashionContainer .heading {
+	clear: both;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.wallFashionCategoryBox {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	width: 17%;
+	max-height: 290px;
+	font-size: 10px;
+	float: left;
+	margin-left: 3%;
+}
+
+.wallFashionCategory {
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 9px;
+}
+
+.wallFashionCategory.selected {
+	background-color: #fff;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+.wallFashionBox {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	max-height: 300px;
+	display: inline-block;
+	background-color: #ffffff;
+	float: right;
+	width: 80%;
+	/*-webkit-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;*/
+}
+
+.wallFasion {
+	height: 70px;
+	width: 23%;
+	float: left;
+	margin: 1%;
+}
+
+.wallFasion.selected{
+	border: 1px solid red;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}

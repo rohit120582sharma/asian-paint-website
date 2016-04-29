@@ -1,0 +1,20 @@
+<div>
+	<div style="display:block;height: 30px"><input id="colorSpectraSearch" type="text" placeholder=" Search"/></div>
+		<div id="colorFamily">
+			<div id="colorFamilyText" class="spectraBaseFont">Select Colour Family</div> 
+			<!-- <div id="recommendationButton">Recommendations</div> -->
+			<div id="colorFamilyContent" data-bind="foreach: colorFamilyList">
+					<div class="colorFamilyDivs colorSpectraSmallTextStyle" data-bind="text:family.toUpperCase(), style: { backgroundColor:family }, click:$root.colorFamilySelected" ></div>
+			</div>	
+		</div>
+		<div id="variations">
+			<div id="variationsText" class="spectraBaseFont">Variations</div>
+			<div id="variationsContent" data-bind="foreach: variations">
+				<div class="variationsDivs" data-bind="click:$root.colorSelected">
+				 	<div class="variationsColorStyle" data-bind="style: { backgroundColor:'#'+Hex }"></div>
+				 	<div class="colorSpectraSmallTextStyle variationsDivTextStyle" data-bind="text:Shade_name+' ('+Shade_code+')'"></div>
+				</div>
+			</div>
+			
+		</div>
+</div>		

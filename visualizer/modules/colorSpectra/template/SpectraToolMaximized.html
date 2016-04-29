@@ -1,0 +1,31 @@
+
+
+
+<div id="draggableMaximized" class="ui-widget-content">
+  	<div id="closeButton" onclick="SpectraTool.openMinimized(event)"></div>
+	<div id="colorSpectraContainerMaximized">
+		<div id="spectraTabs" class="spectraTabs_bg" data-bind="foreach: colorSpectraTabs">
+			<div class="colorSpectraContainerMaximized tabText" data-bind="text: $data, 
+	                   css: { colorSpectraTabselected: $data == $root.chosenTabId() },
+	                   click: $root.goToTab"></div>         
+		</div>
+		 <div id="colorSelectionHeader">Select Custom Colour</div>
+		<div id="spectraToolContent"></div>
+	</div >	
+	<div id="spectraTabButtons" style="float: left; padding-left:5px;">
+	      <div id="removeCoatButton" style="display:none" class="colorSpectaApplyCancelButton" data-bind="click:$root.removeCoat">Remove Coat</div>
+		 <div id="applyColorButton" class="colorSpectaApplyCancelButton" data-bind="text:buttonText, click:$root.apply ,css:{disabledStyle:isDisabled()}"></div>
+		 <div id="cancelColorButton" class="colorSpectaApplyCancelButton"  data-bind="click:$root.cancel">Cancel</div>
+	</div>
+</div>
+
+<!-- spectra tab based content containers -->
+<div id="colors" style="display:none"></div>
+<div id="effects" style="display:none"></div>
+<div id="kidsWorld" style="display:none"></div>
+<div id="wallFashion" style="display:none"></div>
+<div id="refreshContainer" style="display:none">
+	<div id="refreshContainerText" class="spectraBaseFont">Data could not be loaded. Tap Refresh to retry.</div>
+	<div id="refreshContainerButton" class="spectraBaseFont" onclick=SpectraTool.vm.refresh()>Refresh</div>
+</div>
+

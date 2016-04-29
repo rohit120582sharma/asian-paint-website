@@ -1,0 +1,626 @@
+{
+    "textures": {
+        "Categories": [
+            {
+                "category": "Retail",
+                "details": [
+                    {
+                        "wallfashion": [
+                            {
+                                "WallFashion_id": "WF1031",
+                                "WallFashion_Name": "fern3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern3_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1032",
+                                "WallFashion_Name": "fern4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern4_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1033",
+                                "WallFashion_Name": "fern5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern5_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1035",
+                                "WallFashion_Name": "frames1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1037",
+                                "WallFashion_Name": "frames3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1039",
+                                "WallFashion_Name": "frames5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1044",
+                                "WallFashion_Name": "lipi1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=lipi1&extension=png",
+                                "WallFashion_Thumbnail": "null",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1045",
+                                "WallFashion_Name": "lipi2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=lipi2&extension=png",
+                                "WallFashion_Thumbnail": "null",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1046",
+                                "WallFashion_Name": "lipi3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=lipi3&extension=png",
+                                "WallFashion_Thumbnail": "null",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1047",
+                                "WallFashion_Name": "lipi4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=lipi4&extension=png",
+                                "WallFashion_Thumbnail": "null",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1048",
+                                "WallFashion_Name": "lipi5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=lipi5&extension=png",
+                                "WallFashion_Thumbnail": "null",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1052",
+                                "WallFashion_Name": "mudra2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra2_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1054",
+                                "WallFashion_Name": "mudra4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra4_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1057",
+                                "WallFashion_Name": "raga1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1059",
+                                "WallFashion_Name": "raga3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1061",
+                                "WallFashion_Name": "raga5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1062",
+                                "WallFashion_Name": "rose1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose1_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1063",
+                                "WallFashion_Name": "rose2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose2_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1064",
+                                "WallFashion_Name": "rose3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose3_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1065",
+                                "WallFashion_Name": "rose4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose4_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1068",
+                                "WallFashion_Name": "shadows1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=shadows1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=shadows4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1075",
+                                "WallFashion_Name": "TulipsProp2_317",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=TulipsProp2_317&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Tulips-Prop-2_317_th&extension=png",
+                                "Theme": "null"
+                            },
+                            {
+                                "WallFashion_id": "WF1077",
+                                "WallFashion_Name": "windows1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1079",
+                                "WallFashion_Name": "windows3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1080",
+                                "WallFashion_Name": "windows4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1082",
+                                "WallFashion_Name": "zari1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari1_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1084",
+                                "WallFashion_Name": "zari3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari3_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1086",
+                                "WallFashion_Name": "zari5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari5_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1006",
+                                "WallFashion_Name": "butterfly",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=butterfly&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=butterfly_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1008",
+                                "WallFashion_Name": "Butterfly_D2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D2_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1010",
+                                "WallFashion_Name": "Butterfly_D5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D5_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1013",
+                                "WallFashion_Name": "Carnival_D3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1015",
+                                "WallFashion_Name": "Carnival_D5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1018",
+                                "WallFashion_Name": "circles4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1020",
+                                "WallFashion_Name": "dia1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia1_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1022",
+                                "WallFashion_Name": "dia3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia3_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1025",
+                                "WallFashion_Name": "Dizzy_Squares_D1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Dizzy_Squares_D1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=DizzySqr_D1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1027",
+                                "WallFashion_Name": "Dizzy_Squares_D3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Dizzy_Squares_D3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=DizzySqr_D3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1030",
+                                "WallFashion_Name": "fern2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern2_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1036",
+                                "WallFashion_Name": "frames2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1038",
+                                "WallFashion_Name": "frames4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=frames4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1051",
+                                "WallFashion_Name": "mudra1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra1_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1053",
+                                "WallFashion_Name": "mudra3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra3_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1055",
+                                "WallFashion_Name": "mudra5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=mudra5_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1058",
+                                "WallFashion_Name": "raga2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1060",
+                                "WallFashion_Name": "raga4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=raga4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1066",
+                                "WallFashion_Name": "rose5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=rose5_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1069",
+                                "WallFashion_Name": "shadows2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=shadows2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=shadows5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1076",
+                                "WallFashion_Name": "TulipsProp",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=TulipsProp&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Tulips-Prop_th&extension=png",
+                                "Theme": "null"
+                            },
+                            {
+                                "WallFashion_id": "WF1078",
+                                "WallFashion_Name": "windows2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1081",
+                                "WallFashion_Name": "windows5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=windows5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1083",
+                                "WallFashion_Name": "zari2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari2_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1085",
+                                "WallFashion_Name": "zari4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=zari4_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1001",
+                                "WallFashion_Name": "brick1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=brick1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=bricks1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1002",
+                                "WallFashion_Name": "brick2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=brick2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=bricks2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1003",
+                                "WallFashion_Name": "brick3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=brick3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=bricks3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1004",
+                                "WallFashion_Name": "brick4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=brick4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=bricks4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1005",
+                                "WallFashion_Name": "brick5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=brick5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=bricks5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1007",
+                                "WallFashion_Name": "Butterfly_D1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D1_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1009",
+                                "WallFashion_Name": "Butterfly_D4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Butterfly_D4_th&extension=png",
+                                "Theme": "Nature"
+                            },
+                            {
+                                "WallFashion_id": "WF1011",
+                                "WallFashion_Name": "Carnival_D1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1012",
+                                "WallFashion_Name": "Carnival_D2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1014",
+                                "WallFashion_Name": "Carnival_D4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Carnival_D4_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1016",
+                                "WallFashion_Name": "circles2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1017",
+                                "WallFashion_Name": "circles3",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles3&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles3_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1019",
+                                "WallFashion_Name": "circles5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=circles5_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1021",
+                                "WallFashion_Name": "dia2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia2_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1023",
+                                "WallFashion_Name": "dia4",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia4&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia4_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1024",
+                                "WallFashion_Name": "dia5",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia5&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=dia5_th&extension=png",
+                                "Theme": "Traditional"
+                            },
+                            {
+                                "WallFashion_id": "WF1026",
+                                "WallFashion_Name": "Dizzy_Squares_D2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Dizzy_Squares_D2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=DizzySqr_D2_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1028",
+                                "WallFashion_Name": "Equinox_D1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Equinox_D1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Equinox_D1_th&extension=png",
+                                "Theme": "Modern"
+                            },
+                            {
+                                "WallFashion_id": "WF1029",
+                                "WallFashion_Name": "fern1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=fern1_th&extension=png",
+                                "Theme": "Nature"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "Imagine",
+                "details": [
+                    {
+                        "wallfashion": [
+                            {
+                                "WallFashion_id": "WF1034",
+                                "WallFashion_Name": "Flower_Power_Prop2_027",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Flower_Power_Prop2_027&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Flower2_027_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1040",
+                                "WallFashion_Name": "French_167",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=French_167&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=French_167_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1042",
+                                "WallFashion_Name": "Gypsy_Beads_1",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy_Beads_1&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy-Beads_1_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1049",
+                                "WallFashion_Name": "Lotus2_150",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Lotus2_150&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Lotus-2_150_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1050",
+                                "WallFashion_Name": "MorningRagaProp1_232",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=MorningRagaProp1_232&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Morning_Raga_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1056",
+                                "WallFashion_Name": "paper_planes",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=paper_planes&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=paper_plane_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1067",
+                                "WallFashion_Name": "SafariProp2_262",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=SafariProp2_262&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Safari_Prop_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1070",
+                                "WallFashion_Name": "StardustProp2_055",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=StardustProp2_055&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Stardust_Prop_2055_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1072",
+                                "WallFashion_Name": "summerbloom",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=summerbloom&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=summer_bloom_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1074",
+                                "WallFashion_Name": "The_Safari",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=The_Safari&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=The-Safari_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1041",
+                                "WallFashion_Name": "Gypsy_Beads_076",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy_Beads_076&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy-Beads_076_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1043",
+                                "WallFashion_Name": "Gypsy_Beads_2",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy_Beads_2&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Gypsy-Beads_2_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1071",
+                                "WallFashion_Name": "StardustProp_050",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=StardustProp_050&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Stardust-Prop_050_th&extension=png",
+                                "Theme": "Imagine"
+                            },
+                            {
+                                "WallFashion_id": "WF1073",
+                                "WallFashion_Name": "SunspryProp2_112",
+                                "WallFashion_Image": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=SunspryProp2_112&extension=png",
+                                "WallFashion_Thumbnail": "http://172.25.30.30/Rest_Upload/file_download?user=visualizer&sys_user=visualizer&appname=visualizer&version=1.0&module=visualizer&filename=Sunspry-Prop-2_112_th&extension=png",
+                                "Theme": "Imagine"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

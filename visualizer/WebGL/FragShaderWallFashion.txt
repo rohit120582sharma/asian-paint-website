@@ -1,0 +1,25 @@
+uniform sampler2D  sTexture;
+
+uniform mediump vec3 TopColor;
+uniform mediump float AspectRatio;
+uniform mediump float fPerspective;
+
+varying mediump vec2   TexCoordOriginal;
+
+void main()
+{
+ 	// calculate the perspective texture coordinate
+    /*mediump vec3  TexCoordPerspective;		    
+    TexCoordPerspective = vec3(TexCoordOriginal.x, TexCoordOriginal.y, 1.0);
+    
+    mediump float fTemp1 = 1.0 + (fPerspective/20.0) * ((TexCoordPerspective.x*2.0-1.0) - sign(fPerspective));
+	mediump float fTemp2 = (TexCoordPerspective.y*2.0-1.0)*0.5;
+	TexCoordPerspective.y = 0.5 + fTemp2 / fTemp1;*/
+    
+    mediump vec4 texColor = texture2D(sTexture, TexCoordOriginal.xy);
+    
+    if( texColor.a > 0.1 )
+        gl_FragColor = vec4(TopColor, texColor.a);
+    else
+        gl_FragColor = texColor;
+}

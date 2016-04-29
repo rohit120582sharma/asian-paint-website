@@ -1,0 +1,93 @@
+#helpScreenSlider {
+overflow: hidden;
+height: 725px;
+background-color:#8060A6;
+}
+ #helpScreenSlider .viewport {
+float: left;
+width: 886px;
+height: 643px;
+overflow: hidden;
+position: relative;
+margin-top: 40px;
+margin-left: 4px;
+}
+.helpScreenNavButtons{
+	display: inline-block;
+	width: 19px;
+	height: 49px;
+	margin-top: 356px;
+	padding: 9px;
+	cursor: pointer;
+	float: left;
+	overflow: hidden;
+	position: relative;	
+	}
+#helpScreenSlider .next {
+	background-image:url("../../../assets/images/help/right-arrow.png");
+	background-repeat: no-repeat;
+	background-position: 9px;
+}
+#helpScreenSlider .prev {
+	background-image:url("../../../assets/images/help/left-arrow.png");
+	background-repeat: no-repeat;
+	background-position: 9px;
+}
+#helpScreenSlider .disable {
+visibility: hidden;
+}
+#helpScreenSlider .overview {
+list-style: none;
+position: absolute;
+padding: 0;
+margin: 0;
+width: 886px;
+left: 0 top: 0;
+}
+#helpScreenSlider .overview li {
+float: left;
+margin: 0 20px 0 0;
+padding: 1px;
+width: 886px;
+height: 643px;
+}
+#helpScreenCloseBtn{
+font-family: sans-serif;
+font-weight: bold;
+color: white;
+margin-left: 900px;
+position: absolute;
+margin-top: 12px;
+font-size: 11px;
+cursor:pointer;
+}
+#helpScreenSlider .bullets {
+overflow: hidden;
+list-style: none;
+clear: both;
+margin-left: 420px;
+padding-top: 20px;
+}
+#helpScreenSlider .bullets li {
+float: left;
+}
+#helpScreenSlider .bullet {
+	background-image: url("../../../assets/images/help/purple.png");
+	display: block;
+	background-repeat: no-repeat;
+	padding-right: 10px;
+	text-decoration: none;
+}
+#helpScreenSlider .bullet.active {
+background-image: url("../../../assets/images/help/white.png");
+}
+#currentHelpScreen{
+position: absolute;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: bold;
+color: white;
+margin-left: 42px;
+margin-top: 19px;
+text-shadow: 2px 2px 2px rgb(53, 49, 49);
+}

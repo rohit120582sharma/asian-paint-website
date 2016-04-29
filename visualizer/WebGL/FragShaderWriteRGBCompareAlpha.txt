@@ -1,0 +1,13 @@
+uniform sampler2D  sTexture;
+varying mediump vec2   TexCoord;
+
+uniform highp float alpha;
+
+void main()
+{
+    highp float val = abs(texture2D(sTexture, TexCoord).a - alpha);
+    if( val < 0.000001 )
+    	gl_FragColor = vec4(texture2D(sTexture, TexCoord).rgb,1.0);
+    else
+    	discard;
+}

@@ -1,0 +1,109 @@
+﻿{
+	"retailers":[
+{
+"clr":"#79be16",
+"display_heading":"colour ideas",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"clr":"#33cccc",
+"display_heading":"ezycolour",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"clr":"#003366",
+"display_heading":"critical retailers",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"clr":"#ff6666",
+"display_heading":"colour world",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+}
+],
+"contractor":[
+{
+"display_heading":"royal play",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"display_heading":"royal play idc",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"display_heading":"ezycolour",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+
+},
+{
+"display_heading":"royal play",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+
+},
+{
+"display_heading":"royal play",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+
+}
+],
+"decor":[
+{
+"display_heading":"ezycolour",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"display_heading":"royal play idc",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+},
+{
+"display_heading":"ezycolour",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+
+},
+{
+"display_heading":"royal play",
+"display": "Lorem Ipsum is simply dummy text of the ",
+"address":"Harijivandas Mohandas 20/22, C P Tank Roadgulal Wadi Mumbai 400004<br>Phone No: 9022418700",
+"lat":"19.0759837",
+"lng":"72.87765590000004"
+
+}
+]
+
+}

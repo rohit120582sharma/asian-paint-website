@@ -1,0 +1,22 @@
+<div id="orientationToolTemplate">
+	<div id="joystickController"></div>
+	<div id="orientationTabs">
+		<div id="move" class="orientationTabs"></div>
+		<div id="zoom" class="orientationTabs"></div>
+		<div id="rotation" class="orientationTabs"></div>
+	</div>
+</div>
+<div id="moveTemplate" style="display:none;">
+	<div id="moveLeft" class="moveArrows" onclick="OrientationTool.handleMove(event,'left')"></div>
+	<div id="moveRight" class="moveArrows" onclick="OrientationTool.handleMove(event,'right')"></div>
+	<div id="moveDown" class="moveArrows" onclick="OrientationTool.handleMove(event,'down')"></div>
+	<div id="moveUp" class="moveArrows" onclick="OrientationTool.handleMove(event,'up')"></div>
+</div>
+<div id="zoomTemplate" style="display:none;">
+	<div id="zoomIn" class="zoomComponents" onclick="OrientationTool.handleZoom(event,'in')"></div>
+	<div id="zoomOut" class="zoomComponents" onclick="OrientationTool.handleZoom(event,'out')"></div>
+</div>
+<div id="rotationTemplate" style="display:none;">
+	 <div id="rotateRight" class="rotationComponents" onclick="OrientationTool.handleRotation(event,'right')"></div>
+	 <div id="rotateLeft" class="rotationComponents" onclick="OrientationTool.handleRotation(event,'left')"></div>
+</div>

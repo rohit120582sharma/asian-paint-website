@@ -1,0 +1,16 @@
+<div id ="inspirationWallToolbar">
+   <div id="galleryOption">
+   		<!-- <span id="myInspirationWall"  class="inspirationWallToolbarTextStyle" style="width: 180px;" >My Inspiration Wall</span> -->
+		<div id="asianPaintsGallery" class="inspirationWallToolbarTextStyle">Asian Paints Gallery</div>
+   </div>
+   <div id="interiorExterior" >
+	   	<div id="interior"  class="inspirationWallToolbarTextStyle">Interior</div>
+		<div id="exterior"  class="inspirationWallToolbarTextStyle">Exterior</div>
+		<div id="filterLogo">&nbsp</div>
+   </div>
+</div>	
+<div id="imageSection">
+		<div class="images" data-bind="foreach: ImageList">
+			<img class="sliderImages" data-bind="attr: { src:source }" onclick="InspirationWall.inspirationWallImageClicked(event)"></img>
+		</div>
+</div> 

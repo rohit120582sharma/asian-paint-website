@@ -1,0 +1,30 @@
+<div class="filtersMain">
+	<div class="filtersHeader">FILTERS</div>
+	<!-- interior filters -->
+	<div class="filtersHolder interiorFilters" data-bind="foreach: interiorFilterList" style="display: none;">
+		<div class="filterOptions" >
+			<div class="filterHeading" data-bind="text: name"></div>
+			<div class="filterType">
+				<div data-bind="foreach: {data :values,afterRender: $root.renderedHandler}">
+					<div><input type="checkbox" name="" data-bind="value: Value"><span data-bind="text: Value"></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- exterior filters -->
+	<div class="filtersHolder exteriorFilters" data-bind="foreach: exteriorFilterList" style="display: none;">
+		<div class="filterOptions" >
+			<div class="filterHeading" data-bind="text: name"></div>
+			<div class="filterType">
+				<div data-bind="foreach: {data :values,afterRender: $root.renderedHandler}">
+					<div><input type="checkbox" name="" data-bind="value: Value"><span data-bind="text: Value"></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="filterBottomBar">
+		<button class="applyFilters">Apply Filters</button>
+		<button class="cancelFilters">Cancel</button>
+	</div>
+</div>

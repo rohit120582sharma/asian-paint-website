@@ -1,0 +1,332 @@
+@font-face {
+	font-family: 'Conv_accordaltbold-webfont';
+	src: url('../assets/fonts/accordaltbold-webfont.eot');
+	src: url('../assets/fonts/accordaltbold-webfont.woff') format('woff'), url('../assets/fonts/accordaltbold-webfont.ttf') format('truetype'), url('../assets/fonts/accordaltbold-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_accordaltregular-webfont';
+	src: url('../assets/fonts/accordaltregular-webfont.eot');
+	src: url('../assets/fonts/accordaltregular-webfont.woff') format('woff'), url('../assets/fonts/accordaltregular-webfont.ttf') format('truetype'), url('../assets/fonts/accordaltregular-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body {
+	margin: 0px;
+	-webkit-user-select: : rgba( 255, 255, 255, 0);
+	-khtml-user-select: : rgba( 255, 255, 255, 0);
+	-moz-user-select: : rgba( 255, 255, 255, 0);
+	-ms-user-select: : rgba( 255, 255, 255, 0);
+	user-select: : rgba( 255, 255, 255, 0);
+	background-color:#FFFFFF;
+	font-family: 'Conv_accordaltregular-webfont';
+}
+
+#container:-webkit-full-screen { .mainContainer { top:50%;
+	position: absolute;
+	margin-top: -364px;
+	left: 50%;
+	margin-left: -450px;
+}
+
+}
+#mainContainer {
+	/*min-height: 684px;*/
+	float:left;
+	width: 959px;
+	/*margin: 0px auto;*/
+	position:relative;
+	background-color:#ececeb;
+}
+
+#mainContainer:-webkit-full-screen {
+	width: 70.1% !important;
+}
+
+#mainContainer:-moz-full-screen {
+	width: 70.1% !important;
+	position: absolute;
+	margin-left: 100px;
+	left: 200px;
+}
+
+#mainContainer:-ms-fullscreen {
+	width: 70.1% !important;
+}
+
+#mainContainer:fullscreen {
+	width: 70.1% !important;
+}
+
+#helpScreenContainer {
+	min-height: 725px;
+	width: 969px;
+	margin: 0px auto;
+	background-color: #999999;
+	display: none;
+}
+
+#toolbar {
+	/*width: 969px;
+	height: 57px;*/
+	width: 60px;
+	height: 100%;
+	min-height:623px;
+	background: #ececeb;
+	display:inline-block;
+	padding:10px;
+	float:left;
+}
+#toolbarTemplate {}
+#toolbarTemplate, #toolbarTemplateMainModule {
+	background-color:#ffffff;
+	border:1px solid #b9b9b9;
+	text-align:center;
+	min-height:617px;
+}
+
+/*#footer {
+	background: url("../assets/images/bottom_bar_bg.png");
+	height: 41px;
+	margin-top: 628px;
+	width: 969px;
+}*/
+#footer {
+	/*background: url("../assets/images/bottom_bar_bg.png"); display:inline-block;*/
+	background: #512b8b;
+	height: 41px;
+	/*margin-top: 367px;*/
+	width: 959px;
+	float:left;
+}
+
+#footerKitClosed {
+	height: 41px;
+	margin-top: 628px;
+	width: 969px;
+	background-color: #262626;
+	display: none;
+}
+
+#kitIconClosed {
+	background: url('../assets/images/mainModuleToolbar/closed_kit.png');
+	width: 54px;
+	height: 38px;
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	background-position: 0px 3px;
+	cursor: pointer;
+}
+
+#home {
+	background: url("../assets/images/mainModuleToolbar/home.png");
+	height: 40px;
+	width: 57px;
+	background-repeat: no-repeat
+}
+
+#skipButton {
+	background: url("../assets/images/skip.png");
+	height: 40px;
+	width: 79px;
+	/*float: right;*/
+	position:absolute; right:0;
+}
+
+#bottomToolbar {
+	display: inline-block;
+	float: right;
+}
+#messageBox{
+	display:none;
+}
+#messageBoxContainer{
+	position: absolute;
+	background-image: url("../assets/images/pop-up_bg.png");
+	background-repeat: no-repeat;
+	width: 351px;
+	height: 146px;
+	z-index: 200;
+	top: 50%;
+	left: 50%;
+	margin-top: -165px;
+	margin-left: -175px;
+}
+#message{
+	margin-top: 22px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+	width: 320px;
+	margin-left: 10px;
+	margin-bottom: 11px;
+}
+.messagePopupButtons{
+	width: 100px;
+	line-height: 40px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0px 13px;
+	background: -webkit-linear-gradient(top, #929090, #646262);
+	background: -moz-linear-gradient(top, #f8f8f8, #cfcfcf);
+	background: -ms-linear-gradient(top, #f8f8f8, #cfcfcf);
+	background: -o-linear-gradient(top, #f8f8f8, #cfcfcf);
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px #313131;
+	border: 1px solid #888888;
+	//border-right: 1px solid #888888;
+	text-align: center;
+
+}
+
+#helpTips {
+	font-family: MyriadPro, Calibri; display:none;
+	font-size: 12px;
+	color: #000000;
+	width: 790px;
+	display: inline-block;
+	float: left;
+	height: 40px;
+	padding-left: 10px;
+	overflow: hidden;
+	position: relative;
+	background:#512b8b;
+}
+
+.loader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 150;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5); /* black semi-transparent */
+}
+
+.popupOverlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 150;
+	display: none;
+	background-color: rgba(0, 0, 0, 0.5); /* black semi-transparent */
+}
+
+#scrollingText {
+	white-space: nowrap; display:none;
+	position: absolute;
+	margin-top: 12px;
+}
+
+@font-face {
+	font-family: MyriadPro;
+	src: url('../assets/fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+	font-family: MyriadPro-Semibold;
+	src: url('../assets/fonts/MyriadPro-Semibold.otf');
+}
+
+#notSupportedContainer {
+	display: none;
+	position: absolute;
+	z-index: 150;
+	top: 0;
+	background: #fff;;
+	min-height: 740px;
+	font-family: MyriadPro-Semibold, arial;
+	width: 100%;
+}
+
+#notSupportedContainer .notSupportedMain {
+	/*width: 40%;*/
+	margin: 0 20%;
+}
+
+#notSupportedContainer .browserListMain {
+	margin-top: 50px;
+	padding: 20px
+}
+
+#notSupportedContainer .browserListMain ul {
+	list-style-type: none;
+}
+
+#notSupportedContainer .browserListMain ul img {
+	float: left;
+	margin-right: 10px;
+	margin-top: -4px;
+}
+
+#notSupportedContainer .browserListMain ul li {
+	clear: both;
+	margin-bottom: 5px;
+}
+
+#notSupportedContainer .browserListMain a.mac {
+	background: url('../assets/images/webAlert/ic_mac.png') 0 18px;
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+}
+
+#notSupportedContainer a.mac:hover {
+	background: url('../assets/images/webAlert/ic_mac.png') 0 36px;
+}
+
+#notSupportedContainer a.mac:active {
+	background: url('../assets/images/webAlert/ic_mac.png') 0 36px;
+}
+
+#notSupportedContainer a.win {
+	background: url('../assets/images/webAlert/ic_windows.png') 0 18px;
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+}
+
+#notSupportedContainer a.win:hover {
+	background: url('../assets/images/webAlert/ic_windows.png') 0 36px;
+}
+
+#notSupportedContainer a.win:active {
+	background: url('../assets/images/webAlert/ic_windows.png') 0 36px;
+}
+
+/*-------------------------------- Custom Styles Starts here ---------------------------------------------*/
+
+.header_wrapper { width:100%; clear:both; display:block; }
+.logo_container { width:100%; display:block; padding:25px 0 5px; }
+.logo { width:970px; margin:0 auto; }
+.header_bg { background: #5e3b8d url("../assets/images/gradient-bg.jpg") repeat-y center center; padding: 8px 0; position: relative; height:35px; }
+#container { width:970px; margin:0 auto; }
+.content_intro_wrapper { width:100%; clear:both; display:block; }
+.content_intro_content { width:970px; margin:0 auto; padding-bottom:40px; }
+h2 { font-family: "Conv_accordaltregular-webfont"; font-size: 24px; margin-bottom: 32px; }
+h2 span { border-bottom: 1px solid #d3d3d3; display: inline-block; padding-bottom: 5px; }
+.content_intro_content p { font-size:14px; color:#333333; letter-spacing:0.4pt; }
+
+.mainContainer { text-transform:lowercase; }
+
+.toolbar_header { background-color:#512b8b; color:#FFFFFF; font-size:16px; text-align:center; padding:5px 0; }
+.effectsContainerMaximized_heading { background-color:#FFFFFF; padding:5px 10px; }
+.glcanvas_bg { float:right; min-height: 628px;width:869px; /*background-color:#FFFFFF !important;"*/ }
+
+
+
+/*-------------------------------- Custom Styles Ends here ---------------------------------------------*/
+
+
