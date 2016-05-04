@@ -7308,7 +7308,8 @@ img.map-ico {
 }
 .fourpics-express .upload-btn{position: relative;}
 .fourpics-express .upload-btn{
-background:  url("../images/upload-v2.jpg") no-repeat scroll 0 0 / 100% auto;}
+	background:  url("../images/upload-v2.jpg") no-repeat scroll 0 0 / 100% auto;
+}
 .fourpics-express .btnAbs {
     bottom: 14px;
     left: 100%;
@@ -10708,4 +10709,24 @@ h3 > span.mandatory, h4 > span.mandatory, label > span.mandatory {
 }
 /* --------------------------------------------------------- */
 /* ----------------------- 12th April 2016 - END ----------------------- */
+/* --------------------------------------------------------- */
+
+
+
+
+
+
+/* --------------------------------------------------------- */
+/* ----------------------- 04th May 2016 - START ----------------------- */
+/* --------------------------------------------------------- */
+.btn-preview-back{
+	position: absolute;
+	top: 5px;
+	right: 15px;
+}
+.fourpics-express .upload-btn {
+	background:  url("../images/upload-v4.jpg") no-repeat scroll 0 0 / 100% auto;
+}
+/* --------------------------------------------------------- */
+/* ----------------------- 04th May 2016 - END ----------------------- */
 /* --------------------------------------------------------- */

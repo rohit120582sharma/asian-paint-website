@@ -998,7 +998,7 @@
 							<div class="col-xs-12">
 								<h2 class="mb-25"><span>next step</span></h2>
 								<h4 class="mb-25 light">Please proceed, if you have made your choice.</h3>
-								<a href="ap-4pics-panoramic-form.html" class="btn-style2">proceed</a>
+								<a href="ap-4pics-panoramic-form.html" class="btn-style2 btn-proceed">proceed</a>
 							</div>
 						</div>
                      </div>
@@ -1657,22 +1657,26 @@
 	<a href="javascript:;" class="move-top">
 		<img src="images/move-top.png" alt="Image">
 	</a>
-    <div id="interiorSampleModal" class="modal fade custom-modal-default-status">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <div class="modal-header"><img src="images/interior-sample-4pics.jpg" alt="interior sample" title="interior sample" /></div>
-            </div>
-        </div>
-    </div>
-    <div id="exterialSampleModal" class="modal fade custom-modal-default-status">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <div class="modal-header"><img src="images/exterior-sample-4pics.jpg" alt="exterior sample" title="exterial sample" /></div>
-            </div>
-        </div>
-    </div>
+    
+
+    <div id="shade-combination-validation-modal" class="modal fade custom-modal-content-template">
+	    <div class="modal-dialog">
+	        <div class="modal-content">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	            <div class="modal-header">
+	                <h3 class="modal-title mt-15 mb-15">Since no surface is selected, we’d just like to make sure that do you still want to proceed?</h3>
+	            </div>
+	            <div class="modal-body clearfix">
+	                <div class="col-xs-12 mb-15 template-textual-simple">
+	                    <p class="mb-15">
+	                    	<a class="btn-style2 mr-15" href="ap-4pics-panoramic-form.html">yes, proceed to next step</a>
+	                    	<a class="btn-style2" href="" data-dismiss="modal">no, take me back</a>
+	                    </p>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
 
 
 	<script src="js/jquery-1.10.2.min.js"></script>
@@ -1687,9 +1691,11 @@
     <script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/main.js"></script>
 	<script type="text/javascript">
-		$(".fileHide").change(function (){
-			var file_Name = $(this).val();
-			$(this).parent('.upload-btn').next(".fileName").html(file_Name);
+		$(document).ready(function(){
+			$('.btn-proceed').click(function(e){
+				$('#shade-combination-validation-modal').modal('show');
+				return false;
+			});
 		});
     </script>
     <script>
