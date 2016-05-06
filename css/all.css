@@ -10723,6 +10723,7 @@ h3 > span.mandatory, h4 > span.mandatory, label > span.mandatory {
 	position: absolute;
 	top: 5px;
 	right: 15px;
+	/*test*/
 }
 .fourpics-express .upload-btn {
 	background:  url("../images/upload-v4.jpg") no-repeat scroll 0 0 / 100% auto;
