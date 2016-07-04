@@ -1,0 +1,790 @@
+.header-bold {
+    font-family: 'Conv_accordaltbold-webfont';
+}
+
+.header-bold span {
+    border-bottom: 1px solid #cccccc;
+}
+
+.h3-border span {
+    display: inline-block;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 10px;
+}
+
+.learn-block {
+    margin-bottom: 20px;
+}
+
+.learn-block p {
+    margin-bottom: 10px;
+}
+
+.mtop-20 {
+    margin-top: 20px;
+}
+
+
+/*recommend-color details*/
+
+.recommend-color {
+    padding-top: 10px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 70px;
+}
+
+.recommend-color li img {
+    margin-bottom: 7px;
+    display: block;
+    width: 100%;
+    max-width: 121px;
+}
+
+.recommend-color li span {
+    text-align: center;
+    display: block;
+}
+
+.recommend-color li {
+    float: left;
+    margin-right: 25px;
+}
+
+.recommend-color li:last-child {
+    margin-right: 0;
+}
+
+
+/*make box text center align following are style*/
+
+
+/*AP_learn_allAboutColour  and common-painting Page */
+
+.center-large-box .search-item .btn-srch {
+    right: 25px;
+}
+
+.center-large-box {
+    margin-top: 55px;
+}
+
+.center-large-box img {
+    width: 100%;
+}
+
+.center-large-box .item-captn {
+    text-align: center;
+}
+
+.center-large-box .tile {
+    margin-bottom: 30px;
+}
+
+.center-large-box .item-captn p {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.center-large-box .row.center {
+    margin-top: 20px;
+}
+
+.center-large-box .like-view {
+    margin-bottom: 10px;
+}
+
+
+/*.mb-80{
+    margin-bottom: 80px !important;
+}
+*/
+
+.brdr-secn-80 {
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 80px;
+    padding-bottom: 70px;
+}
+
+.padd-b200 {
+    padding-bottom: 200px;
+}
+
+
+/*Offers*/
+
+.frm-offer input.txt-input-default {
+    padding: 13px 12px;
+    font-size: 18px;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #999999;
+    min-width: 210px;
+    margin-right: 5px;
+}
+
+.frm-offer .bootstrap-select {
+    min-width: auto;
+	width:100% !important;
+	max-width:220px;
+}
+
+.lbl-default {
+    padding-right: 5px;
+    font-size: 18px;
+}
+
+.lbl-edit img {
+    padding-right: 5px;
+}
+
+.text-input {
+    padding: 10px 12px;
+    font-size: 14px;
+    color: #333333;
+    background-color: #fff;
+    border: 1px solid #999999;
+    min-width: 210px;
+    margin-bottom: 10px;
+}
+
+.offer-listing {
+    background-color: #ececec;
+    padding: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 0;
+}
+
+.offer-listing .service_aphs_cta {
+    float: none;
+}
+
+.offer-img img {
+    width: 100%;
+    max-width: 160px;
+    margin-bottom: 15px;
+}
+
+.offer-details {
+    padding: 20px;
+}
+
+.offer-info {
+    background-color: #4a306d;
+    color: #fff;
+    padding: 20px;
+}
+
+.md-no-padding {
+    padding: 0;
+}
+
+.offer-setion {
+    padding-bottom: 150px;
+}
+
+
+/*carries*/
+
+.whp-block img {
+    margin-bottom: 15px;
+}
+
+.whp-block h3 {
+    margin-bottom: 8px;
+}
+
+.campus-block img {
+    margin-bottom: 30px !important;
+    width: 100%;
+    max-width: 450px;
+}
+
+img.usr-img {
+    max-width: 60px;
+    float: left;
+    padding-right: 15px;
+    margin-bottom: 0px !important;
+}
+
+.campus-wrap {
+    padding: 0 15px;
+}
+
+.campus-block h3,
+.campus-block p {
+    text-align: left;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+
+/*Large-lp*/
+
+
+/*.city-block {
+    background-color: #ebebeb;
+    padding: 4px 25px;
+}
+*/
+
+
+/*.col-md-3.investor-stock-quote.city-block ul {
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.col-md-3.investor-stock-quote.city-block li {
+    padding-left: 10px;
+}
+*/
+
+.city-block .investor-stock-quote > ul > li {
+    font-size: 18px;
+}
+
+.city-block .investor-stock-quote {
+    background-color: #ebebeb;
+    padding: 4px 25px;
+    padding-top: 80px;
+}
+
+.city-block h3 {
+    background-color: #512b8b;
+    color: #fff;
+    display: inline;
+    padding: 5px 10px;
+    position: absolute;
+    left: 15px;
+    top: 0;
+}
+
+.city-block .investor-stock-quote ul {
+    height: 450px;
+    max-height: 450px;
+}
+
+.border-b {
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 10px;
+    margin-bottom: 150px;
+}
+
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.all-pro-gallery .drctr-img {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.all-pro-gallery .item-captn {
+    padding: 10px 15px;
+    bottom: 10px;
+}
+
+.all-pro-gallery .open-plus {
+    margin: 0;
+}
+
+.all-pro-gallery .item-hdng.blck {
+    font-size: 20px;
+}
+
+.faq-dropDwn.col-lg-11.col-xs-12.mb-55 {
+    padding-left: 0;
+}
+
+.large-testimonial .grid-item {
+    margin: 0 15px 15px 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+.large-testimonial img {
+    width: 100%;
+    max-width: 179px;
+    padding-right: 15px;
+    float: left;
+}
+
+.test-wrap {
+    padding: 25px 15px;
+}
+
+.like-view .share .icon,
+.like-view .share .icon:hover
+/*.like-view  .share:last-child*/
+
+{
+    /*background: url("../images/share.png") no-repeat;
+    display: inline-block;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: top;
+    background-size: 100%;*/
+    /*    background-position: 0px;
+*/
+}
+
+.large-gall .tile {
+    position: relative;
+}
+
+.newslttr label {
+    color: #272727;
+}
+
+.ser-offer {
+    margin-bottom: 35px;
+}
+
+
+/*.ser-offer .checkbox {
+    display: none;
+
+}
+*/
+
+.offer-1,
+.offer-2,
+.offer-3 {
+    display: none;
+}
+
+.offer-1 {
+    display: block;
+}
+
+.padd-left-15 {
+    padding-left: 15px;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.large-gall .like-view .view .icon {
+   /* background-position: -18px 0px;*/
+}
+
+.large-gall .like-view .like .icon,
+.large-gall .like-view .share .icon {
+    /*background-position: 0 0px;*/
+}
+
+.nicescroll-rails {
+    max-width: 1px !important
+}
+
+.nicescroll-cursors {
+    left: 3px;
+}
+
+.book-a-ser {
+    position: relative;
+}
+
+.book-a-ser .service_box {
+    position: relative;
+}
+
+.book-a-ser .item-captn {
+    top: 60px;
+    bottom: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.book-a-ser.newslttr .checkbox {
+    float: none;
+    margin: 0 auto !Important;
+    max-width: 25px;
+}
+
+.book-a-ser.newslttr .checkbox input[type="checkbox"]:checked + label::after {
+    background: url("../images/chk-medium.png") no-repeat center center;
+    height: 50px;
+    top: -20px;
+    left: 3px;
+}
+
+.book-a-ser.newslttr .checkbox input[type="checkbox"],
+.book-a-ser.newslttr .checkbox-inline input[type="checkbox"],
+.book-a-ser.newslttr .checkbox label::before {
+    height: 22px;
+    width: 22px;
+}
+
+.ser-offer.newslttr .checkbox input[type="checkbox"]:checked + label::after {
+    background: url("../images/chk-big.png") no-repeat center center;
+    height: 50px;
+    top: -20px;
+    left: 3px;
+}
+
+.ser-offer.newslttr .checkbox input[type="checkbox"],
+.ser-offer.newslttr .checkbox-inline input[type="checkbox"],
+.ser-offer.newslttr .checkbox label::before,
+.ser-offer.newslttr .checkbox label::after {
+    height: 28px;
+    width: 28px;
+}
+
+.book-a-ser.newslttr .checkbox:nth-child(2),
+.book-a-ser.newslttr .checkbox:nth-child(1) input {
+    display: block;
+}
+
+.ser-offer.newslttr label {
+    padding-left: 30px;
+    color: #333333;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.ser-form .input-list-grp > li {
+    margin-bottom: 60px;
+}
+
+.input-list-grp label {
+    text-align: left;
+    font-size: 20px;
+}
+
+.ser-form .input-list-grp input[type="text"] {
+    height: 36px;
+    max-width: 390px;
+    width: 100%;
+}
+
+.pd-b80 {
+    padding-bottom: 80px;
+}
+
+.pd-b20 {
+    padding-bottom: 20px;
+}
+
+.book-a-ser img {
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+.find-contractor .faq-dropDwn {
+    padding-left: 0;
+    background-color: #f9f7d7;
+    padding: 15px 25px 15px 25px !important
+}
+
+#loc-list {
+    float: left;
+    width: 100%;
+    height: 420px;
+    /*  overflow: scroll;
+*/
+}
+
+#loc-list ul {
+    display: block;
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 98%;
+}
+
+#loc-list .list-label {
+    float: left;
+    margin: 10px 0 0 6px;
+    padding: 2px 3px;
+    width: 17px;
+    text-align: center;
+    background: #451400;
+    color: #fff;
+    font-weight: bold;
+}
+
+.list-content .links a {
+    margin-top: -7px;
+    color: #ff3333;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.list-content .loc-addr {
+    /*margin-bottom: 20px;*/
+}
+
+.list-content .links {
+    padding-top: 20px;
+}
+
+
+/*.loc-addr .loc-lanmark  .loc-phno*/
+
+.list-content span {
+    padding-bottom: 3px;
+    display: block;
+}
+
+.list-content .co-name {
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.list-content {
+    padding: 20px 25px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.list-content.active {
+    background-color: #dcdcdc;
+}
+
+#loc-list .list-details {
+    float: left;
+    margin-left: 6px;
+    width: 85%;
+}
+
+#loc-list .list-content {
+    padding: 20px 25px 10px 25px;
+}
+
+#loc-list .loc-dist {
+    font-weight: bold;
+    font-style: italic;
+    color: #8e8e8e;
+}
+
+#loc-list li.active {
+    background-color: #dcdcdc;
+}
+
+#loc-list li {
+    display: block;
+    clear: left;
+    float: left;
+    margin: 0px 10px;
+    cursor: pointer;
+    width: 99%;
+    border-right: none;
+    border-bottom: 1px solid #dcdcdc;
+    /* Adding this to prevent moving li elements when adding the list-focus class*/
+}
+
+#loc-list .list-focus {
+    border: 1px solid rgba(82, 168, 236, 0.9);
+    -moz-box-shadow: 0 0 8px rgba(82, 168, 236, 0.7);
+    -webkit-box-shadow: 0 0 8px rgba(82, 168, 236, 0.7);
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.7);
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+#map-container .loc-name {
+    color: #AD2118;
+    font-weight: bold;
+}
+
+.map-warp {
+    padding-left: 0;
+}
+
+.contat-list-warp {
+    padding: 0;
+    padding-right: 20px;
+    border: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+    border-right: none;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 56.5%;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.f-contact-form li {
+    float: left;
+}
+
+.f-contact-form label {
+    width: 70px;
+    line-height: 37px;
+    font-family: 'Conv_accordaltbold-webfont';
+}
+
+.f-contact-form li .bootstrap-select.btn-group .dropdown-menu li {
+    width: 100%;
+}
+
+.f-contact-form .btn-with-divider {
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+}
+
+.f-contact-form .btn-style2 {
+    background-color: transparent;
+    margin-left: 25px;
+}
+
+a.btn-style2.pull-right.btn-location {
+    background-color: transparent;
+    color: #55565a;
+    padding: 7px;
+    border-width: 1px;
+    margin-right: 0;
+}
+
+.f-contact-form input {
+    height: 37px;
+    padding: 10px 5px;
+}
+
+.product-section h3 {
+    margin-bottom: 5px;
+}
+
+.product-section p {
+    margin-bottom: 10px;
+}
+
+.product-section h2 {
+    padding-left: 15px;
+}
+
+.t-info {
+    position: relative;
+}
+
+.t-location {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.lg-service.service_aphs_services .service_box .service_content {
+    min-height: 230px;
+}
+
+.t-infoo {
+    min-height: 100px;
+}
+
+.t-bg-red {
+    background-color: red;
+}
+
+.find-contractor .style-10 {
+    border: 2px solid #bcbcbc;
+    font-size: 14px;
+    padding: 15px;
+    margin: 25px 25px 0 0;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+img.map-ico {
+    margin-top: -8px;
+}
+
+
+/*end */
+
+@media (max-width: 992px) {
+    .lbl-default {
+        padding-right: 5px;
+    }
+    .crr-v {
+        margin-bottom: 15px;
+    }
+    .f-contact-form li {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .map-warp {
+        padding: 0;
+    }
+    .f-contact-form .btn-style2 {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .f-contact-form label {
+        line-height: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .md-no-padding {
+        padding: 0 15px;
+    }
+    .center-large-box .item-captn p {
+        width: 90%;
+    }
+    .frm-offer input.txt-input-default {
+        padding: 10px 12px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .wat-we-d p {
+        text-align: center;
+    }
+    a.edit-btn.pull-right {
+        float: right !Important;
+    }
+	.lbl-default {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 640px) {
+    .large-testimonial img {
+        margin-bottom: 15px !important;
+    }
+    .city-block .investor-stock-quote ul {
+        height: 150px;
+        max-height: 150px;
+    }
+    .ser-offer.newslttr .checkbox {
+        width: 100%;
+    }
+}
